@@ -1,0 +1,13 @@
+
+
+.post-img {
+  max-width: 500px;
+}
+
+.post-text {
+  text-align: justify;
+}
+
+.comment-author {
+  text-transform: capitalize;
+}
