@@ -32,6 +32,7 @@ function App() {
 
       {show && <Header />}
       
+      
       <Routes>
         <Route path="/" element={user ? <Home /> : <Register/>}/>
         <Route path="/post/:id" element={<PostItem/>}/>
